@@ -2,7 +2,10 @@
 #include <string>
 #include <vector>
 
+#include "cpp-logging/include/logging.hpp"
+
 int main(int argc, char** argv) {
-  std::cout << "hello world" << '\n';
+  auto logger = logging::Logger("thing");
+  logger.error("oopsies");
   return 0;
 }

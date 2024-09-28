@@ -1,0 +1,3 @@
+[submodule "deps/cpp-logging"]
+	path = deps/cpp-logging
+	url = git@github.com:H4CKY54CK/cpp-logging.git
