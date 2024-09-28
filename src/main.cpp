@@ -6,6 +6,6 @@
 
 int main(int argc, char** argv) {
   auto logger = logging::Logger("thing");
-  logger.error("oopsies");
+  logger.error("omg v0.2.0?");
   return 0;
 }
